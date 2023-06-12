@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -printf '%P\n' -and -not -name . -or -type d -and -empty -printf '%p\n'
+find . -empty -printf '%P\n'
